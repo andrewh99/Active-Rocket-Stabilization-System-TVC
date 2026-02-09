@@ -11,7 +11,7 @@ This repository contains the flight control software for a custom-built 2-axis T
 ## Mechanical Design
 The gimbal assembly was designed in SolidWorks to accommodate the specific torque requirements of the flight vehicle.
 
-![Gimbal Assembly](hardware/final_render.png)
+![Gimbal Assembly](hardware/final_render2.png)
 
 ### Key Specifications:
 * **Axis 1 (Lower):** 120mm gear driven by a 24mm pinion ($5.0:1$).
