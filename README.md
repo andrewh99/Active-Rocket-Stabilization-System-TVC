@@ -22,8 +22,6 @@ This repository contains the flight control software and mechanical design for a
 ## Control Theory v1.0
 The system utilizes a **Proportional (P) Feedback Loop**. By leveraging the IMU's gravity vector rather than Euler angles, the controller avoids gimbal lock during high-dynamic vertical flight.
 
-
-
 **Control Law:**
 $$u(t) = K_p \cdot (G_{raw} - G_{offset})$$
 
@@ -35,3 +33,8 @@ To account for mounting variances, specific offsets are applied to the raw telem
 * **Upper Axis (Z) Offset:** -0.52
 
 The firmware includes a **1-second startup safety lock**, holding the servos at their neutral trim positions (Low: 82.5°, Up: 95.0°) before engaging reactive mode.
+
+Currently finalizing testing of ** Control Theory v2.0, a PID controller.
+
+**Wiring Schematic**
+![Wiring Schematic](hardware/schematics/final_render2.png)
