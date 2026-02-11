@@ -6,9 +6,7 @@
 This repository contains the flight control software and mechanical design for a custom 2-axis Thrust Vector Control (TVC) gimbal. Utilizing a **Teensy 4.1** and an **Adafruit BNO055 IMU**, the system provides active stabilization for model rocket motors by reacting to gravity vector deflection in real-time.
 
 ## Mechanical Design
-The gimbal assembly was developed in **SolidWorks** to maximize angular resolution and torque delivery.
-
-![Gimbal Assembly](hardware/final_render2.png)
+![Gimbal Assembly](hardware/renders/final_render2.png)
 
 ### Specifications
 * **Controller:** Teensy 4.1
