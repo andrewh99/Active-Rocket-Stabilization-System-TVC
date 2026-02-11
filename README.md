@@ -37,4 +37,4 @@ The firmware includes a **1-second startup safety lock**, holding the servos at 
 Currently finalizing testing of ** Control Theory v2.0, a PID controller.
 
 **Wiring Schematic**
-![Wiring Schematic](hardware/schematics/final_schemattic.png)
+![Wiring Schematic](hardware/schematics/final_schematic.png)
