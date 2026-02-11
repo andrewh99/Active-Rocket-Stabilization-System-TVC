@@ -18,9 +18,10 @@ The gimbal assembly was engineered in **SolidWorks** with a focus on optimizing 
 * **Actuation:** Driven by **EMAX ES08MA II** metal-gear micro servos, selected for their superior durability and 2.0 kg/cm stall torque.
 
 ### Mechatronic Specifications & Tolerances
-* **Controller:** Teensy 4.1 (ARM Cortex-M7 @ 600MHz).
-* **IMU:** BNO055 (Absolute Orientation via Gravity Vector).
-* **Mechanical Advantage:** * **Lower Axis (Pitch):** 120mm Gear / 24mm Pinion (**5.0:1 Ratio**).
+* **Controller:** Teensy 4.1
+* **IMU:** BNO055
+* **Mechanical Advantage:**
+   * **Lower Axis (Pitch):** 120mm Gear / 24mm Pinion (**5.0:1 Ratio**).
    * **Upper Axis (Yaw):** 166mm Gear / 24mm Pinion (**6.91:1 Ratio**).
 * **Precision:** The high reduction ratios significantly increase effective torque and provide high-resolution angular control (approx. 0.14° per servo step on the upper axis).
 
